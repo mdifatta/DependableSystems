@@ -9,17 +9,17 @@ This repo contains:
 
 In order to make our code work properly follow this folders structure:
 
-~/
-| -- Desktop/
-|     | -- images/
-|     |     | -- img1.pgm
-|     |      
-|     | -- fi_sample/
-|     |     | -- feature_extract.cpp
-|     |     | -- input.yaml
-|     |     
-|     | -- llfi-script.py
-
+~/</br>
+| -- Desktop/</br>
+|     | -- images/</br>
+|     |     | -- img1.pgm</br>
+|     | </br>     
+|     | -- fi_sample/</br>
+|     |     | -- feature_extract.cpp</br>
+|     |     | -- input.yaml</br>
+|     |    </br> 
+|     | -- llfi-script.py</br>
+<
 Notes:
 1. call all the project folders following the pattern 'fi_xxxx', the Python script will search for this pattern name.
 2. the input images must being in the P5 .pgm format
