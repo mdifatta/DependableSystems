@@ -20,7 +20,6 @@ In order to make our code work properly follow this folders structure:
 |     |  
 |     | -- llfi-script.py
 </pre>
-<pre>
 Notes:
 1. call all the project folders following the pattern 'fi_xxxx', the Python script will search for this pattern name.
 2. the input images must being in the P5 .pgm format
@@ -29,7 +28,6 @@ Notes:
     * -c to run only the 'compile' and 'instrument' steps of the pipeline
     * -p to run only the 'profile' and 'inject' steps of the pipeline on ALL the images in the images/ folder
     CAVEAT: with no args the script won't do anything, with both args the script will run the entire pipeline
-</pre>
 
 Check out https://github.com/DependableSystemsLab/LLFI for LLFI's repo
 and https://github.com/robertwgh/ezSIFT for eszSIFT's repo.
