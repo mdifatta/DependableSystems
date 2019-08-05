@@ -25,9 +25,9 @@ Notes:
 1. call all the project folders following the pattern 'fi_xxxx', the Python script will search for this pattern name.
 2. the input images must being in the P5 .pgm format
 3. the input.yaml file is just a sample: add, remove and edit the section based on you needs
-4. the Python script can be run with two command line arguments.
-    a. -c to run only the 'compile' and 'instrument' steps of the pipeline
-    b. -p to run only the 'profile' and 'inject' steps of the pipeline on ALL the images in the images/ folder
+4. the Python script can be run with two command line arguments:
+    * -c to run only the 'compile' and 'instrument' steps of the pipeline
+    * -p to run only the 'profile' and 'inject' steps of the pipeline on ALL the images in the images/ folder
     CAVEAT: with no args the script won't do anything, with both args the script will run the entire pipeline
 </pre>
 
