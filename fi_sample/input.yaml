@@ -1,0 +1,10 @@
+kernelOption: [forceRun]
+compileOption:
+  instSelMethod:
+  - insttype:
+      include: [ret, br]
+  regSelMethod: regloc
+  regloc: allsrcreg
+runOption:
+  - run:
+      numOfRuns: 10
